@@ -24,3 +24,5 @@ if guess == number:
     print("good job you guessed my number in " + str(guessTaken)+ " gueses!")
 else:
     print("Sorry mate, my number was: " + str(number) + " .")
+
+
