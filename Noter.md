@@ -1,8 +1,7 @@
 ### Math Operators from Highest to Lowest Precedence
 
-
 | Operator | Operation                         | Example | Evaluates to... |
-| ---------- | ----------------------------------- | --------- | ----------------- |
+| -------- | --------------------------------- | ------- | --------------- |
 | **       | Exponent                          | 2 ** 3  | 8               |
 | %        | Modulus/remainder                 | 22 % 8  | 6               |
 | //       | Integer division/floored quotient | 22 // 8 | 2               |
@@ -13,9 +12,8 @@
 
 #### Common Data Types
 
-
 | Data type              | Examples                                |
-| ------------------------ | ----------------------------------------- |
+| ---------------------- | --------------------------------------- |
 | Integers               | -2, -1, 0, 1, 2, 3, 4, 5                |
 | Floating-point numbers | -1.25, -1.0, --0.5, 0.0, 0.5, 1.0, 1.25 |
 | Strings                | 'a', 'aa', 'aaa', 'Hello!', '11 cats'   |
@@ -24,9 +22,8 @@
 
 Comparison operators compare two values and evaluate down to a single Boolean value.
 
-
 | Operator | Meaning                  |
-| ---------- | -------------------------- |
+| -------- | ------------------------ |
 | ==       | Equal to                 |
 | !=       | Not equal to             |
 | <        | Less than                |
@@ -83,9 +80,8 @@ You can pass the len() function a string value (or a variable containing a strin
 A truth table shows every possible result of a Boolean operator. Table 2-2
 is the truth table for the and operator.
 
-
 | Expression      | Evaluates to... |
-| ----------------- | ----------------- |
+| --------------- | --------------- |
 | True and True   | True            |
 | True and False  | False           |
 | False and True  | False           |
@@ -96,9 +92,8 @@ is the truth table for the and operator.
 Unlike and and or, the not operator operates on only one Boolean value (or
 expression). The not operator simply evaluates to the opposite Boolean value.
 
-
 | Expression | Evaluates to... |
-| ------------ | ----------------- |
+| ---------- | --------------- |
 | not True   | False           |
 | not False  | True            |
 
@@ -112,7 +107,7 @@ When creating a function using the def statement, you can specify what
 the return value should be with a return statement. A return statement con-
 sists of the following:
 
-- The *return* keyword
+- The*return* keyword
 - The value or expression that the function should return
 
 When an expression is used with a return statement, the return value
@@ -120,9 +115,8 @@ is what this expression evaluates to. For example, the following program
 defines a function that returns a different string depending on what num-
 ber it is passed as an argument.#### Math Operators from Highest to Lowest Precedence
 
-
 | Operator | Operation                         | Example | Evaluates to... |
-| ---------- | ----------------------------------- | --------- | ----------------- |
+| -------- | --------------------------------- | ------- | --------------- |
 | **       | Exponent                          | 2 ** 3  | 8               |
 | %        | Modulus/remainder                 | 22 % 8  | 6               |
 | //       | Integer division/floored quotient | 22 // 8 | 2               |
@@ -133,9 +127,8 @@ ber it is passed as an argument.#### Math Operators from Highest to Lowest Prece
 
 #### Common Data Types
 
-
 | Data type              | Examples                                |
-| ------------------------ | ----------------------------------------- |
+| ---------------------- | --------------------------------------- |
 | Integers               | -2, -1, 0, 1, 2, 3, 4, 5                |
 | Floating-point numbers | -1.25, -1.0, --0.5, 0.0, 0.5, 1.0, 1.25 |
 | Strings                | 'a', 'aa', 'aaa', 'Hello!', '11 cats'   |
@@ -144,9 +137,8 @@ ber it is passed as an argument.#### Math Operators from Highest to Lowest Prece
 
 Comparison operators compare two values and evaluate down to a single Boolean value.
 
-
 | Operator | Meaning                  |
-| ---------- | -------------------------- |
+| -------- | ------------------------ |
 | ==       | Equal to                 |
 | !=       | Not equal to             |
 | <        | Less than                |
@@ -156,16 +148,27 @@ Comparison operators compare two values and evaluate down to a single Boolean va
 
 #### The Augmented Assignment Operators
 
-
 | Augmented assignment statementcol | Equivalent assignment statement |
-| ----------------------------------- | :-------------------------------- |
+| --------------------------------- | :------------------------------ |
 | spam = spam + 1                   | spam += 1                       |
 | spam = spam - 1                   | spam -= 1                       |
 | spam = spam * 1                   | spam *= 1                       |
 | spam = spam / 1                   | spam /= 1                       |
 | spam = spam % 1                   | spam %= 1                       |
 
-#### String concatenation and replication
+Escoae Characters
+
+| Escape character | Print as             |
+| ---------------- | :------------------- |
+| \\'              | single qutoe         |
+| \\"              | Double qutoes        |
+| \t               | tab                  |
+| \n               | Newline (Line break) |
+| \\\              | Backslash            |
+
+####
+
+String concatenation and replication
 
 ```
 >>> 'Alice' + 'Bob' 
@@ -214,9 +217,8 @@ You can pass the len() function a string value (or a variable containing a strin
 A truth table shows every possible result of a Boolean operator. Table 2-2
 is the truth table for the and operator.
 
-
 | Expression      | Evaluates to... |
-| ----------------- | ----------------- |
+| --------------- | --------------- |
 | True and True   | True            |
 | True and False  | False           |
 | False and True  | False           |
@@ -227,9 +229,8 @@ is the truth table for the and operator.
 Unlike and and or, the not operator operates on only one Boolean value (or
 expression). The not operator simply evaluates to the opposite Boolean value.
 
-
 | Expression | Evaluates to... |
-| ------------ | ----------------- |
+| ---------- | --------------- |
 | not True   | False           |
 | not False  | True            |
 
@@ -243,7 +244,7 @@ When creating a function using the def statement, you can specify what
 the return value should be with a return statement. A return statement con-
 sists of the following:
 
-- The *return* keyword
+- The*return* keyword
 - The value or expression that the function should return
 
 When an expression is used with a return statement, the return value
@@ -284,9 +285,8 @@ print(fortune)
 
 #### Math Operators from Highest to Lowest Precedence
 
-
 | Operator | Operation                         | Example | Evaluates to... |
-| ---------- | ----------------------------------- | --------- | ----------------- |
+| -------- | --------------------------------- | ------- | --------------- |
 | **       | Exponent                          | 2 ** 3  | 8               |
 | %        | Modulus/remainder                 | 22 % 8  | 6               |
 | //       | Integer division/floored quotient | 22 // 8 | 2               |
@@ -297,9 +297,8 @@ print(fortune)
 
 #### Common Data Types
 
-
 | Data type              | Examples                                |
-| ------------------------ | ----------------------------------------- |
+| ---------------------- | --------------------------------------- |
 | Integers               | -2, -1, 0, 1, 2, 3, 4, 5                |
 | Floating-point numbers | -1.25, -1.0, --0.5, 0.0, 0.5, 1.0, 1.25 |
 | Strings                | 'a', 'aa', 'aaa', 'Hello!', '11 cats'   |
@@ -308,9 +307,8 @@ print(fortune)
 
 Comparison operators compare two values and evaluate down to a single Boolean value.
 
-
 | Operator | Meaning                  |
-| ---------- | -------------------------- |
+| -------- | ------------------------ |
 | ==       | Equal to                 |
 | !=       | Not equal to             |
 | <        | Less than                |
@@ -367,9 +365,8 @@ You can pass the len() function a string value (or a variable containing a strin
 A truth table shows every possible result of a Boolean operator. Table 2-2
 is the truth table for the and operator.
 
-
 | Expression      | Evaluates to... |
-| ----------------- | ----------------- |
+| --------------- | --------------- |
 | True and True   | True            |
 | True and False  | False           |
 | False and True  | False           |
@@ -380,9 +377,8 @@ is the truth table for the and operator.
 Unlike and and or, the not operator operates on only one Boolean value (or
 expression). The not operator simply evaluates to the opposite Boolean value.
 
-
 | Expression | Evaluates to... |
-| ------------ | ----------------- |
+| ---------- | --------------- |
 | not True   | False           |
 | not False  | True            |
 
@@ -396,7 +392,7 @@ When creating a function using the def statement, you can specify what
 the return value should be with a return statement. A return statement con-
 sists of the following:
 
-- The *return* keyword
+- The*return* keyword
 - The value or expression that the function should return
 
 When an expression is used with a return statement, the return value
@@ -437,9 +433,8 @@ print(fortune)
 
 #### Math Operators from Highest to Lowest Precedence
 
-
 | Operator | Operation                         | Example | Evaluates to... |
-| ---------- | ----------------------------------- | --------- | ----------------- |
+| -------- | --------------------------------- | ------- | --------------- |
 | **       | Exponent                          | 2 ** 3  | 8               |
 | %        | Modulus/remainder                 | 22 % 8  | 6               |
 | //       | Integer division/floored quotient | 22 // 8 | 2               |
@@ -450,9 +445,8 @@ print(fortune)
 
 #### Common Data Types
 
-
 | Data type              | Examples                                |
-| ------------------------ | ----------------------------------------- |
+| ---------------------- | --------------------------------------- |
 | Integers               | -2, -1, 0, 1, 2, 3, 4, 5                |
 | Floating-point numbers | -1.25, -1.0, --0.5, 0.0, 0.5, 1.0, 1.25 |
 | Strings                | 'a', 'aa', 'aaa', 'Hello!', '11 cats'   |
@@ -461,9 +455,8 @@ print(fortune)
 
 Comparison operators compare two values and evaluate down to a single Boolean value.
 
-
 | Operator | Meaning                  |
-| ---------- | -------------------------- |
+| -------- | ------------------------ |
 | ==       | Equal to                 |
 | !=       | Not equal to             |
 | <        | Less than                |
@@ -520,9 +513,8 @@ You can pass the len() function a string value (or a variable containing a strin
 A truth table shows every possible result of a Boolean operator. Table 2-2
 is the truth table for the and operator.
 
-
 | Expression      | Evaluates to... |
-| ----------------- | ----------------- |
+| --------------- | --------------- |
 | True and True   | True            |
 | True and False  | False           |
 | False and True  | False           |
@@ -533,9 +525,8 @@ is the truth table for the and operator.
 Unlike and and or, the not operator operates on only one Boolean value (or
 expression). The not operator simply evaluates to the opposite Boolean value.
 
-
 | Expression | Evaluates to... |
-| ------------ | ----------------- |
+| ---------- | --------------- |
 | not True   | False           |
 | not False  | True            |
 
@@ -549,7 +540,7 @@ When creating a function using the def statement, you can specify what
 the return value should be with a return statement. A return statement con-
 sists of the following:
 
-- The *return* keyword
+- The*return* keyword
 - The value or expression that the function should return
 
 When an expression is used with a return statement, the return value
@@ -590,9 +581,8 @@ print(fortune)
 
 #### Math Operators from Highest to Lowest Precedence
 
-
 | Operator | Operation                         | Example | Evaluates to... |
-| ---------- | ----------------------------------- | --------- | ----------------- |
+| -------- | --------------------------------- | ------- | --------------- |
 | **       | Exponent                          | 2 ** 3  | 8               |
 | %        | Modulus/remainder                 | 22 % 8  | 6               |
 | //       | Integer division/floored quotient | 22 // 8 | 2               |
@@ -603,9 +593,8 @@ print(fortune)
 
 #### Common Data Types
 
-
 | Data type              | Examples                                |
-| ------------------------ | ----------------------------------------- |
+| ---------------------- | --------------------------------------- |
 | Integers               | -2, -1, 0, 1, 2, 3, 4, 5                |
 | Floating-point numbers | -1.25, -1.0, --0.5, 0.0, 0.5, 1.0, 1.25 |
 | Strings                | 'a', 'aa', 'aaa', 'Hello!', '11 cats'   |
@@ -614,9 +603,8 @@ print(fortune)
 
 Comparison operators compare two values and evaluate down to a single Boolean value.
 
-
 | Operator | Meaning                  |
-| ---------- | -------------------------- |
+| -------- | ------------------------ |
 | ==       | Equal to                 |
 | !=       | Not equal to             |
 | <        | Less than                |
@@ -673,9 +661,8 @@ You can pass the len() function a string value (or a variable containing a strin
 A truth table shows every possible result of a Boolean operator. Table 2-2
 is the truth table for the and operator.
 
-
 | Expression      | Evaluates to... |
-| ----------------- | ----------------- |
+| --------------- | --------------- |
 | True and True   | True            |
 | True and False  | False           |
 | False and True  | False           |
@@ -686,9 +673,8 @@ is the truth table for the and operator.
 Unlike and and or, the not operator operates on only one Boolean value (or
 expression). The not operator simply evaluates to the opposite Boolean value.
 
-
 | Expression | Evaluates to... |
-| ------------ | ----------------- |
+| ---------- | --------------- |
 | not True   | False           |
 | not False  | True            |
 
@@ -702,7 +688,7 @@ When creating a function using the def statement, you can specify what
 the return value should be with a return statement. A return statement con-
 sists of the following:
 
-- The *return* keyword
+- The*return* keyword
 - The value or expression that the function should return
 
 When an expression is used with a return statement, the return value
@@ -743,9 +729,8 @@ print(fortune)
 
 #### Math Operators from Highest to Lowest Precedence
 
-
 | Operator | Operation                         | Example | Evaluates to... |
-| ---------- | ----------------------------------- | --------- | ----------------- |
+| -------- | --------------------------------- | ------- | --------------- |
 | **       | Exponent                          | 2 ** 3  | 8               |
 | %        | Modulus/remainder                 | 22 % 8  | 6               |
 | //       | Integer division/floored quotient | 22 // 8 | 2               |
@@ -756,9 +741,8 @@ print(fortune)
 
 #### Common Data Types
 
-
 | Data type              | Examples                                |
-| ------------------------ | ----------------------------------------- |
+| ---------------------- | --------------------------------------- |
 | Integers               | -2, -1, 0, 1, 2, 3, 4, 5                |
 | Floating-point numbers | -1.25, -1.0, --0.5, 0.0, 0.5, 1.0, 1.25 |
 | Strings                | 'a', 'aa', 'aaa', 'Hello!', '11 cats'   |
@@ -767,9 +751,8 @@ print(fortune)
 
 Comparison operators compare two values and evaluate down to a single Boolean value.
 
-
 | Operator | Meaning                  |
-| ---------- | -------------------------- |
+| -------- | ------------------------ |
 | ==       | Equal to                 |
 | !=       | Not equal to             |
 | <        | Less than                |
@@ -826,9 +809,8 @@ You can pass the len() function a string value (or a variable containing a strin
 A truth table shows every possible result of a Boolean operator. Table 2-2
 is the truth table for the and operator.
 
-
 | Expression      | Evaluates to... |
-| ----------------- | ----------------- |
+| --------------- | --------------- |
 | True and True   | True            |
 | True and False  | False           |
 | False and True  | False           |
@@ -839,9 +821,8 @@ is the truth table for the and operator.
 Unlike and and or, the not operator operates on only one Boolean value (or
 expression). The not operator simply evaluates to the opposite Boolean value.
 
-
 | Expression | Evaluates to... |
-| ------------ | ----------------- |
+| ---------- | --------------- |
 | not True   | False           |
 | not False  | True            |
 
@@ -855,7 +836,7 @@ When creating a function using the def statement, you can specify what
 the return value should be with a return statement. A return statement con-
 sists of the following:
 
-- The *return* keyword
+- The*return* keyword
 - The value or expression that the function should return
 
 When an expression is used with a return statement, the return value
@@ -896,9 +877,8 @@ print(fortune)
 
 #### Math Operators from Highest to Lowest Precedence
 
-
 | Operator | Operation                         | Example | Evaluates to... |
-| ---------- | ----------------------------------- | --------- | ----------------- |
+| -------- | --------------------------------- | ------- | --------------- |
 | **       | Exponent                          | 2 ** 3  | 8               |
 | %        | Modulus/remainder                 | 22 % 8  | 6               |
 | //       | Integer division/floored quotient | 22 // 8 | 2               |
@@ -909,9 +889,8 @@ print(fortune)
 
 #### Common Data Types
 
-
 | Data type              | Examples                                |
-| ------------------------ | ----------------------------------------- |
+| ---------------------- | --------------------------------------- |
 | Integers               | -2, -1, 0, 1, 2, 3, 4, 5                |
 | Floating-point numbers | -1.25, -1.0, --0.5, 0.0, 0.5, 1.0, 1.25 |
 | Strings                | 'a', 'aa', 'aaa', 'Hello!', '11 cats'   |
@@ -920,9 +899,8 @@ print(fortune)
 
 Comparison operators compare two values and evaluate down to a single Boolean value.
 
-
 | Operator | Meaning                  |
-| ---------- | -------------------------- |
+| -------- | ------------------------ |
 | ==       | Equal to                 |
 | !=       | Not equal to             |
 | <        | Less than                |
@@ -979,9 +957,8 @@ You can pass the len() function a string value (or a variable containing a strin
 A truth table shows every possible result of a Boolean operator. Table 2-2
 is the truth table for the and operator.
 
-
 | Expression      | Evaluates to... |
-| ----------------- | ----------------- |
+| --------------- | --------------- |
 | True and True   | True            |
 | True and False  | False           |
 | False and True  | False           |
@@ -992,9 +969,8 @@ is the truth table for the and operator.
 Unlike and and or, the not operator operates on only one Boolean value (or
 expression). The not operator simply evaluates to the opposite Boolean value.
 
-
 | Expression | Evaluates to... |
-| ------------ | ----------------- |
+| ---------- | --------------- |
 | not True   | False           |
 | not False  | True            |
 
@@ -1008,7 +984,7 @@ When creating a function using the def statement, you can specify what
 the return value should be with a return statement. A return statement con-
 sists of the following:
 
-- The *return* keyword
+- The*return* keyword
 - The value or expression that the function should return
 
 When an expression is used with a return statement, the return value
@@ -1049,9 +1025,8 @@ print(fortune)
 
 #### Math Operators from Highest to Lowest Precedence
 
-
 | Operator | Operation                         | Example | Evaluates to... |
-| ---------- | ----------------------------------- | --------- | ----------------- |
+| -------- | --------------------------------- | ------- | --------------- |
 | **       | Exponent                          | 2 ** 3  | 8               |
 | %        | Modulus/remainder                 | 22 % 8  | 6               |
 | //       | Integer division/floored quotient | 22 // 8 | 2               |
@@ -1062,9 +1037,8 @@ print(fortune)
 
 #### Common Data Types
 
-
 | Data type              | Examples                                |
-| ------------------------ | ----------------------------------------- |
+| ---------------------- | --------------------------------------- |
 | Integers               | -2, -1, 0, 1, 2, 3, 4, 5                |
 | Floating-point numbers | -1.25, -1.0, --0.5, 0.0, 0.5, 1.0, 1.25 |
 | Strings                | 'a', 'aa', 'aaa', 'Hello!', '11 cats'   |
@@ -1073,15 +1047,23 @@ print(fortune)
 
 Comparison operators compare two values and evaluate down to a single Boolean value.
 
-
 | Operator | Meaning                  |
-| ---------- | -------------------------- |
+| -------- | ------------------------ |
 | ==       | Equal to                 |
 | !=       | Not equal to             |
 | <        | Less than                |
 | >        | Greater than             |
 | <=       | Less than or equal to    |
 | >=       | Greater than or equal to |
+
+| Escape character | Print as                 |
+| ---------------- | ------------------------ |
+| '                | Single quote             |
+| !=               | Not equal to             |
+| <                | Less than                |
+| >                | Greater than             |
+| <=               | Less than or equal to    |
+| >=               | Greater than or equal to |
 
 #### String concatenation and replication
 
@@ -1132,9 +1114,8 @@ You can pass the len() function a string value (or a variable containing a strin
 A truth table shows every possible result of a Boolean operator. Table 2-2
 is the truth table for the and operator.
 
-
 | Expression      | Evaluates to... |
-| ----------------- | ----------------- |
+| --------------- | --------------- |
 | True and True   | True            |
 | True and False  | False           |
 | False and True  | False           |
@@ -1145,9 +1126,8 @@ is the truth table for the and operator.
 Unlike and and or, the not operator opera∏tes on only one Boolean value (or
 expression). The not operator simply evaluates to the opposite Boolean value.
 
-
 | Expression | Evaluates to... |
-| ------------ | ----------------- |
+| ---------- | --------------- |
 | not True   | False           |
 | not False  | True            |
 
@@ -1161,7 +1141,7 @@ When creating a function using the def statement, you can specify what
 the return value should be with a return statement. A return statement con-
 sists of the following:
 
-- The *return* keyword
+- The*return* keyword
 - The value or expression that the function should return
 
 When an expression is used with a return statement, the return value
@@ -1202,9 +1182,8 @@ print(fortune)
 
 #### Math Operators from Highest to Lowest Precedence
 
-
 | Operator | Operation                         | Example | Evaluates to... |
-| ---------- | ----------------------------------- | --------- | ----------------- |
+| -------- | --------------------------------- | ------- | --------------- |
 | **       | Exponent                          | 2 ** 3  | 8               |
 | %        | Modulus/remainder                 | 22 % 8  | 6               |
 | //       | Integer division/floored quotient | 22 // 8 | 2               |
@@ -1215,9 +1194,8 @@ print(fortune)
 
 #### Common Data Types
 
-
 | Data type              | Examples                                |
-| ------------------------ | ----------------------------------------- |
+| ---------------------- | --------------------------------------- |
 | Integers               | -2, -1, 0, 1, 2, 3, 4, 5                |
 | Floating-point numbers | -1.25, -1.0, --0.5, 0.0, 0.5, 1.0, 1.25 |
 | Strings                | 'a', 'aa', 'aaa', 'Hello!', '11 cats'   |
@@ -1226,9 +1204,8 @@ print(fortune)
 
 Comparison operators compare two values and evaluate down to a single Boolean value.
 
-
 | Operator | Meaning                  |
-| ---------- | -------------------------- |
+| -------- | ------------------------ |
 | ==       | Equal to                 |
 | !=       | Not equal to             |
 | <        | Less than                |
@@ -1285,9 +1262,8 @@ You can pass the len() function a string value (or a variable containing a strin
 A truth table shows every possible result of a Boolean operator. Table 2-2
 is the truth table for the and operator.
 
-
 | Expression      | Evaluates to... |
-| ----------------- | ----------------- |
+| --------------- | --------------- |
 | True and True   | True            |
 | True and False  | False           |
 | False and True  | False           |
@@ -1298,9 +1274,8 @@ is the truth table for the and operator.
 Unlike and and or, the not operator operates on only one Boolean value (or
 expression). The not operator simply evaluates to the opposite Boolean value.
 
-
 | Expression | Evaluates to... |
-| ------------ | ----------------- |
+| ---------- | --------------- |
 | not True   | False           |
 | not False  | True            |
 
@@ -1314,7 +1289,7 @@ When creating a function using the def statement, you can specify what
 the return value should be with a return statement. A return statement con-
 sists of the following:
 
-- The *return* keyword
+- The*return* keyword
 - The value or expression that the function should return
 
 When an expression is used with a return statement, the return value
@@ -1440,8 +1415,10 @@ that key does not exist.
 >>> 'I am bringing ' + str(picnicItems.get('eggs', 0)) + ' eggs.' 'I am bringing 0 eggs.'
 ```
 
-### The setdefault() Method 
+### The setdefault() Method
+
 You’ll often have to set a value in a dictionary for a certain key only if that key does not already have a value. The code looks something like this:
+
 ```
  spam = {'name': 'Pooka', 'age': 5}
                  if 'color' not in spam:
