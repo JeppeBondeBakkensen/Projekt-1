@@ -1,0 +1,78 @@
+
+
+# TODO:  Open en txt file 
+
+import os 
+import random 
+
+relative_path = "reading and writing files/Mad Libs"
+file_name = "new_file.txt"
+
+# Combine the relative path and file name
+file_path = os.path.join(relative_path, file_name)
+
+print(f"File '{file_path}' created successfully.")
+
+# TODO: Lad useren skrive en text 
+userTextInput = "Kort før massespurten var der et stort styrt i feltet, hvor Mattias Skjelmose og Juan Ayuso, nummer fire i løbet, var involveret. "
+
+# Open the file in write mode
+with open(file_path, 'w') as UserTextFile:
+    # Write content to the file
+    UserTextFile.write(userTextInput)
+
+    # Write content to the file
+words = userTextInput.split()
+ordklasser = ["Noun", "Ajective", "Verb"]
+print(userTextInput)
+
+# Randomly select positions to insert the additional content
+insert_positions = sorted(random.sample(range(len(words)),3))
+
+# Insert random ordklasse at selected positions
+
+for pos, ordklasser in zip(insert_positions,ordklasser):
+    words[pos]= ordklasser
+    
+# Combine the words back into a single string
+modified_sentence = " ".join(words)
+
+print("\nModified text")
+print(modified_sentence)
+
+# TODO: Useren skal nu skrive et adjective, noun og verb
+
+adjective = input("Enter an adjective:\n")
+noun = input("Enter a noun:\n")
+verb = input("Enter a verb:\n")
+
+for pos, word_type in zip(insert_positions, [adjective,noun,verb]):
+    words[pos]= word_type
+
+final_sentence = " ".join(words)
+
+with open(file_path, 'w') as UserTextFile:
+    # Write content to the file
+    UserTextFile.write(final_sentence)
+print("\nFinal text:")
+print(final_sentence)
+
+
+
+# print(modified_text)
+# print(words)
+#  with open(file_path, 'r') as UserTextFile:
+#     # Read the contents of the file
+#     file_contents = UserTextFile.read()
+#     # Process the contents, for example, print them
+#     print("File contents:")
+
+#     for char in file_contents: 
+#         if char == " ":
+          
+#     print(file_contents)
+
+
+
+# TODO: de nye ord bliver implementeret i userens tekst. 
+
